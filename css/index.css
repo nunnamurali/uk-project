@@ -1,0 +1,238 @@
+*{
+	padding:0px;
+	margin:0px;
+}
+@font-face {
+    font-family:OpenSans-Bold;
+	src:url(../fonts/OpenSans-Bold.ttf);
+}
+@font-face {
+    font-family:VarelaRound;
+	src:url(../fonts/VarelaRound-Regular.ttf);
+}
+@font-face {
+    font-family:Lato;
+	src:url(../fonts/Lato-Black.ttf);
+}
+#tf-home{
+	background:url(../images/Homepage%20Banner%20Image.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+.navbar-default{
+	background-color: rgba(103, 91, 67,.4);
+	border-color:rgba(128, 128, 128, .6);
+	height: auto;
+	background-attachment: fixed;
+	color:#fff;
+	margin-top:20px;
+	padding:1% 0%;
+}
+.navbar-default .navbar-brand {
+  font-family: Lato;
+  font-size: 30px;
+  font-weight: 900;
+  letter-spacing: 1.2px;
+  color: #ffffff;
+}
+.navbar-default .navbar-nav>li>a {
+  color: #ffffff;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: bold;
+}
+.Rectangle1 {
+  border-radius: 2px;
+  background-color: #0d1b40;
+}
+.container1{
+	padding:10% 0% 5% 0%;;
+}
+
+.THE-RATE-YOU-DESERVE {
+  font-family: Lato;
+  font-size: 45px;
+  font-weight: 900;
+  line-height: 1.22;
+  letter-spacing: 6px;
+  color: #ffffff;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5), 0 2px 4px rgba(0, 0, 0, 0.5), 0 2px 4px rgba(0, 0, 0, 0.5);
+  padding: 12% 0% 0% 10%;
+}
+.Merit-based-Student {
+  font-family: VarelaRound;
+  font-size: 16px;
+  line-height: 1.63;
+  color: #ffffff;
+  padding: 10% 24% 0% 10%;
+}
+.Rectangle-3 {
+  border-radius: 2px;
+  border: solid 1px #ffffff;
+}
+.btn-default {
+  border-radius: 2px;
+  border: solid 1px #ffffff;
+  background-color:#0d1b40;
+  margin: 10%;
+}
+.BORROW-BETTER {
+  font-family: Comfortaa;
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+}
+.WHO-WE-ARE {
+  font-family: Lato;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 0.8px;
+  text-align: center;
+  color: #ffffff;
+}
+.Were-just-like-you {
+  font-family: VarelaRound;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  color: #ffffff;
+}
+.Rectangle4 {
+  background-color: #0d1b40;
+  padding:2% 0%;
+}
+.container2{
+	padding:0% 5%;
+}
+.tf-mobile{
+	background-color:#e9e9e9;
+	padding:2% 1%;
+}
+.Save-300-a-month{
+  font-family: Lato;
+  font-size: 45px;
+  font-weight: 900;
+  color: #0d1b40;
+  padding: 34px 0px 22px 42px;
+}
+.layer {
+  width: 18px;
+  height: 42px;
+  font-family: FredokaOne;
+  font-size: 35px;
+  color: #5c6263;
+}
+h4{
+  font-family: VarelaRound;
+  color: #0d1b40;
+  padding: 4px 0px 2px 42px;
+}
+.Data-Driven-Technolo {
+  font-family: VarelaRound;
+  font-size: 13px;
+  letter-spacing: 1.4px;
+  color: #4a4a4a;
+  padding: 52px 185px 32px 157px;
+}
+
+.Data-Driven-Technolo .text-style-1 {
+  font-size: 16px;
+  letter-spacing: 1.8px;
+  color: #0d1b40;
+}
+.mobile_para{
+  font-family: VarelaRound;
+  font-size: 16px;
+  line-height: 1.63;
+  color: #4a4a4a;
+  padding: 4px 43px 2px 42px;
+}
+.Quick-Calculator-Qui {
+  width: 174px;
+  height: 52px;
+  font-family: VarelaRound;
+  font-size: 13px;
+  letter-spacing: 1.4px;
+  color: #4a4a4a;
+   padding: 4px 43px 2px 42px;
+}
+
+.Quick-Calculator-Qui .text-style-1 {
+  font-size: 16px;
+  letter-spacing: 1.8px;
+  color: #0d1b40;
+}
+.Rectangle3_copy {
+  width: 417px;
+  height: 60px;
+  border-radius: 2px;
+  background-color: #0d1b40;
+  margin-top:15px;
+}
+.CALCULATE-MY-RATE {
+  width: 174px;
+  height: 20px;
+  font-family: VarelaRound;
+  font-size: 16px;
+  color: #ffffff;
+}
+.Whats-your-financia {
+  font-family: Lato;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #0d1b40;
+}
+#Financialneed{
+	background:#ffffff;
+	padding:2% 3%;
+}
+.Rectangle1{
+	position:relative;
+	}
+.Rectangle_box1 {
+  width: 146.4px;
+  height: 146.4px;
+  background-color: #0d1b40;
+  border: solid 1px #979797;
+  position:absolute;
+  top: -46px;
+  left: 62px;
+  z-index:99;
+}
+.REFINANCE-LOAN {
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 900;
+  text-align: center;
+  color: #ffffff;
+}
+.img_margin{
+	padding: 9px 0px 10px 44px;
+}
+.Rectangle_box1_1 {
+  width: 234.3px;
+  height: 322.2px;
+  background-color: #ffffff;
+  border: solid 1px #979797;
+  margin: 12% 2%;
+}
+.Save-30000-on-Aver {
+  width: 246.2px;
+  height: 101px;
+  font-family: VarelaRound;
+  font-size: 16px;
+  letter-spacing: 1.1px;
+  text-align: center;
+  color: #0d1b40;
+}
+.Save-30000-on-Aver .text-style-2 {
+  font-family: Lato;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+@media (min-width: 768px) and (max-width: 800px) {
+.navbar-default .navbar-nav>li>a {
+  font-size: 13px;
+}
+}
