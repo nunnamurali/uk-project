@@ -39,7 +39,7 @@
     	<nav class="navbar navbar-default">
          <div class="container-fluid">
            <div class="row">   
-        	<div class="col-md-4 col-lg-4">
+        	<div class="col-md-4 col-md-offset-1 pad_left">
             	<div class="navbar-header">
                 	<div class="navbar-brand">RefiEDU</div>
                     <button class="navbar-toggle" type="button" data-target="#nav1" data-toggle="collapse">
@@ -49,9 +49,9 @@
                     </button>
                 </div>
             </div>
-            <div class="col-md-8 col-lg-8">
+            <div class="col-md-7">
                 <div class="collapse navbar-collapse" id="nav1">
-                	<ul class="nav navbar-nav">
+                	<ul class="nav navbar-nav navbar-right">
                     	<li><a href="#">REFINANCE STUDENT LOAN</a></li>
                         <li><a href="#">APPLY</a></li>
                         <li><a href="#">WHY US</a></li>
@@ -65,12 +65,22 @@
             </div>
         </nav>
         
-        <div class="container container1">
-        	<div class="col-md-6 col-sm-6">
+        <div class="container container1 hidden-sm hidden-xs">
+        	<div class="col-md-6">
                 <div class="Rectangle1">
-                	<p class="THE-RATE-YOU-DESERVE">THE RATE YOU DESERVE.</p>
+                	<p class="the_rate_deserve">THE RATE YOU DESERVE.</p>
                     <p class="Merit-based-Student">Merit based Student Loan Refinancing for International Students in the UK.Save an average of 300$ a month and 30,000$ overall.</p>
-				      <button class="btn btn-default"><span class="BORROW-BETTER">BORROW BETTER</span></button> 
+				      <button class="btn btn_default"><span class="BORROW-BETTER">BORROW BETTER</span></button> 
+                </div>
+           </div>     
+        </div>
+
+          <div class="container container1_mobile hidden-md hidden-lg">
+            <div class="col-sm-12 col-xs-12">
+                <div class="Rectangle1_mobile">
+                    <p class="the_rate_deserve_mobile">THE RATE YOU DESERVE.</p>
+                    <p class="Merit-based-Student_mobile">Merit based Student Loan Refinancing for International Students in the UK.Save an average of 300$ a month and 30,000$ overall.</p>
+                      <button class="btn btn_default_mobile"><span class="BORROW-BETTER_mobile">BORROW BETTER</span></button> 
                 </div>
            </div>     
         </div>
@@ -79,12 +89,14 @@
    
    <div class="Rectangle4">
         <div class="container container2">
-           <p class="WHO-WE-ARE">WHO WE ARE</p>
-           <p class="Were-just-like-you">We’re just like you. We started RefiEDU because we realized how hard it is for International Students to get a fair deal. We relate to the struggle, and we’re here to help! Our deep understanding and expertise in technology and finance places us in a great position to figure out your needs and meet them. </p>
+            <div class="col-sm-12 col-md-12">
+                 <p class="who_we_are">WHO WE ARE</p>
+                <p class="Were-just-like-you">We’re just like you. We started RefiEDU because we realized how hard it is for International Students to get a fair deal. We relate to the struggle, and we’re here to help! Our deep understanding and expertise in technology and finance places us in a great position to figure out your needs and meet them. </p>
+            </div>
         </div>
    </div>
 	<!--End of rectangle4-->
-	<div class="tf-mobile">
+	<div class="tf-mobile clearfix">
       <div class="container-fluid">
       		<div class="row">
                 <div class="col-md-6">
@@ -99,43 +111,228 @@
                     <h4>EASY & SECURE PROCESS</h4>
                     <p class="mobile_para">3 simple steps for you to have your loan refinanced. Our team of experts are available 24/7 for your assistance. We understand your data is sensitive and we use the best security measures to ensure it is safe.</p>
                 </div>
-                <div class="col-md-6">
-                    <p class="Data-Driven-Technolo"><span class="text-style-1">Data Driven Technology</span>Calculates rates based on your work experience and educational qualifications.</p>
-                    <img src="images/Phone Image.png" class="img-responsive"/>  
+                <div class="col-md-6 hidden-sm hidden-xs">
+                    <div class="row">
+                        <div class="col-md-6 col-lg-6">
+                            <img src="images/line1.png" class="line1"/>
+                        </div>
+                        <div class="col-md-6 col-lg-6">
+                            <p class="Data-Driven-Technolo"><span class="text-style-1">Data Driven Technology</span>Calculates rates based on your work experience and educational qualifications.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-lg-6">
+                            <img src="images/Phone Image.png" class="img-responsive"/>
+                        </div>
+                        <div class="col-md-2 col-lg-2">
+                            <br/><br/><br/><br/><br/><br/><br/>
+                             <span class="line2">- - - - - - -</span>
+                             <br/><br/><br/> <br/><br/><br/><br/><br/><br/><br/>
+                             <span class="line3">- - - - - - -</span>
+                        </div>
+                        <div class="col-md-4 col-lg-4">  
+                            <p class="calculatorqui"><span class="text-style-1">Quick Calculator</span> Quickly find out if this actually works for you.</p>
+                           
+                            <p class="comparerates"><span class="text-style-1">Compare Rates with your Current Plan</span> You’ll soon find out that ours are the lowest</p>
+                           
+                        </div>
+                     </div>
                 </div>
             </div>
             <div class="row">
-            	<div class="col-md-4 col-md-offset-4">
-                <button class="btn Rectangle3_copy"><span class="CALCULATE-MY-RATE">CALCULATE MY RATE</span></button> 
+            	<div class="col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-2 col-xs-4 col-xs-offset-2">
+                	<button class="btn Rectangle3_copy"><span class="CALCULATE-MY-RATE">CALCULATE MY RATE</span></button> 
                 </div>
             </div>
      </div> 
    </div>
    <!--End of tf mobile-->
     <div id="Financialneed">
-   		<div class="container-fluid">
+   		<div class="container">
         	<div class="row">
             	<div class="col-md-12 text-center"><span class="Whats-your-financia">What’s your financial need?</span></div>
             </div>
             <div class="row">
-            	<div class="col-md-4">
+            	<div class="col-md-4 col-sm-12 col-xs-12">
                 	<div class="Rectangle_box1">
                     	<img src="images/Refinance Loan Icon.png" class="img_margin"/>
                         <p class="REFINANCE-LOAN">REFINANCE LOAN</p>
                     </div>
                     <div class="Rectangle_box1_1">
                     	<p class="Save-30000-on-Aver">Save <span class="text-style-2">30,000$</span> on Average.Variable rates start at 2.55% APR with autopay.</p>
+                        <button class="rectangle_box1_2">
+                          <p class="getrate">GET RATE</p>
+                        </button>
                     </div>
                 </div>
-                <div class="col-md-4">
-                
+                <div class="col-md-4 col-sm-12 col-xs-12">
+                    <div class="Rectangle_box1">
+                        <img src="images/Refinance Loan Icon.png" class="img_margin"/>
+                        <p class="REFINANCE-LOAN">SOONER PAYOFF</p>
+                    </div>
+                    <div class="Rectangle_box1_1">
+                        <p class="Save-30000-on-Aver">Save <span class="text-style-2">30,000$</span> on Average.Variable rates start at 2.55% APR with autopay.</p>
+                        <button class="rectangle_box1_2">
+                          <p class="getrate">GET RATE</p>
+                        </button>
+                    </div>
                 </div>
-                <div class="col-md-4">
-                
+                <div class="col-md-4 col-sm-12 col-xs-12">
+                    <div class="Rectangle_box1">
+                        <img src="images/Refinance Loan Icon.png" class="img_margin"/>
+                        <p class="REFINANCE-LOAN">LOWER <br/>RATE</p>
+                    </div>
+                    <div class="Rectangle_box1_1">
+                        <p class="Save-30000-on-Aver">Save <span class="text-style-2">30,000$</span> on Average.Variable rates start at 2.55% APR with autopay.</p>
+                        <button class="rectangle_box1_2">
+                          <p class="getrate">GET RATE</p>
+                        </button>
+                    </div>
                 </div>
             </div> 
         </div>
    </div>
+   <!--Enf of Financialneed-->
+    <div class="howworks">
+        <div class="container">
+            <div class="row">
+                <p class="howitworks">HOW IT WORKS</p>
+            </div>
+            <div class="row">
+                <div class="col-md-12 hidden-xs hidden-sm">
+                    <p class="no1">1</p>
+                    <img class="img1 img-responsive" src="images/How it works Icon 1.png"/>
+                    <div class="gradient_box"></div>
+                    <div class="getrate1">GET YOUR RATE</div>
+                    <p class="quickloan-c">Use our quick loan calculator to find out how much you’ll save.</p>
+                    <p class="no2">2</p>
+                    <img src="images/How it works Icon 2.png" class="img2 img-responsive"/>
+                    <p class="fillyourdetails">FILL YOUR DETAILS</p>
+                    <p class="filloureasy">Fill our easy application form and upload relevant documents.</p>
+                    <p class="no3">3</p>
+                    <img src="images/How it works Icon 3.png" class="img3 img-responsive"/>
+                    <p class="well_analyze">WE”LL ANALYSE & APPROVE</p>
+                    <p class="Well_carefully">We’ll carefully look through your data to find out if you qualify for a loan.</p>
+                    <p class="no4">4</p>
+                    <img src="images/How it works Icon 4.png" class="img4 img-responsive"/>
+                    <p class="your_money">YOU SAVE MONEY</p>
+                    <p class="Well_get_back">We’ll get back with the right plan all in place in just 5 business days. Sit back and save your money!</p>
+                </div>
+            </div>
+            <div class="row hidden-md hidden-lg">
+                <p class="no1_mobile">1</p>
+                    <img class="img1_mobile img-responsive" src="images/How it works Icon 1.png"/>
+                    <div class="getrate1_mobile">GET YOUR RATE</div>
+                    <p class="quickloan-c_mobile">Use our quick loan calculator to find out how much you’ll save.</p>  
+            </div>
+
+            <div class="row hidden-md hidden-lg">
+                <p class="no2_mobile">2</p>
+                    <img src="images/How it works Icon 2.png" class="img2_mobile img-responsive"/>
+                    <p class="fillyourdetails_mobile">FILL YOUR DETAILS</p>
+                    <p class="filloureasy_mobile">Fill our easy application form and upload relevant documents.</p>
+            </div>
+
+            <div class="row hidden-md hidden-lg">
+                <p class="no3_mobile">3</p>
+                    <img src="images/How it works Icon 3.png" class="img3_mobile img-responsive"/>
+                    <p class="well_analyze_mobile">WE”LL ANALYSE & APPROVE</p>
+                    <p class="Well_carefully_mobile">We’ll carefully look through your data to find out if you qualify for a loan.</p>
+            </div>
+
+            <div class="row hidden-md hidden-lg">
+               <p class="no4_mobile">4</p>
+                    <img src="images/How it works Icon 4.png" class="img4_mobile img-responsive"/>
+                    <p class="your_money_mobile">YOU SAVE MONEY</p>
+                    <p class="Well_get_back_mobile">We’ll get back with the right plan all in place in just 5 business days. Sit back and save your money!</p>
+            </div>
+           
+            <div class="row hidden-sm hidden-xs">
+                <div class="col-md-4 col-md-offset-4">
+                    <button class="btn rectangle_3_2"><span class="getstart">GET STARTED</span></button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 hidden-lg hidden-md">
+                    <button class="btn rectangle_3_2_mobile"><span class="getstart">GET STARTED</span></button>
+                </div>
+            </div>
+        </div>
+   </div>
+   <!--End of howworks-->
+  <div class="expatloan">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-5">
+                <img src="images/Placeholder image.png" class="img-responsive sharada"/>
+            </div>
+            <div class="col-md-7">
+                <p class="wearetransform">" We are transforming a broken expat student loan market  "
+                </p>
+                <p class="botpara1">I had the idea for Refiedu when my brother, after completing his education at Oxford, struggled to refinance his Indian student loan in the UK. He had a high paying finance job but financial institutions - both traditional and alternative - refused to refinance his loan.</p>
+                <p class="botpara2">We decided to dig deeper and found that the problem was widespread - International student loans that should have been re-rated continued to be mispriced. There had to be a better way and we decided to build it!
+                </p>
+                <p class="shradhafounder">Shradha,  Founder, RefiEDU</p>
+            </div>
+        </div>
+    </div>
+  </div>
+  <!--End of expatloan-->
+
+  <div class="footer hidden-xs hidden-sm">
+        <div class="container">
+            <div class="col-md-8 col-sm-12">
+                <table class="table table-responsive foot_txt">
+                    <tr>
+                        <td>HOME</td>
+                        <td>BORROW</td>
+                        <td>INVESTOR</td>
+                    </tr>
+                    <tr>
+                        <td>ABOUT</td>
+                        <td>REFINANCE STUDENT LOAN</td>
+                    </tr>
+                    <tr>
+                        <td>TERMS & CONDITIONS</td>
+                        <td>APPLY</td>
+                    </tr>
+                    <tr>
+                        <td>CONTACT</td>
+                        <td>FAQS</td>
+                    </tr>
+                </table>
+            </div>
+      </div>
+    </div>
+
+     <div class="footer hidden-lg hidden-md">
+        <div class="container cont_foot">
+            <div class="col-xs-12 col-sm-12">
+                <table class="table table-responsive foot_txt">
+                    <tr>
+                        <td>HOME</td>
+                        <td>BORROW</td>
+                    </tr>
+                    <tr>
+                        <td>ABOUT</td>
+                        <td>REFINANCE STUDENT LOAN</td>
+                    </tr>
+                    <tr>
+                        <td>TERMS & CONDITIONS</td>
+                        <td>APPLY</td>
+                    </tr>
+                    <tr>
+                        <td>CONTACT</td>
+                        <td>FAQS</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>INVESTOR</td>
+                    </tr>
+                </table>
+            </div>
+      </div>
+    </div>
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
