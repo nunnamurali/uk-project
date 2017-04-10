@@ -16,9 +16,17 @@
 }
 #tf-home{
   background:url(../images/Homepage%20Banner%20Image.png);
-  background-size: 100% 100%;
+  background-size: cover;
+  background-position: fixed;
   background-repeat: no-repeat;
   padding: 2% 0%;
+}
+.jumbotron {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 0px;
+    color: inherit;
+    background-color: #eee;
 }
 .pad_left{
   padding-left: 0px;
@@ -41,39 +49,34 @@
 .navbar-default .navbar-nav>li>a {
   color: #ffffff;
   font-family: Lato;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: bold;
 }
-.navbar-default .navbar-toggle .icon-bar {
-    background-color: #fff;
-}
-.navbar-default .navbar-toggle {
-    border: none;
-}
+
 .Rectangle1_mobile {
   border-radius: 2px;
   background-color: #0d1b40;
-  border-bottom: 1px solid #666;
 }
 .container1_mobile{
-  padding: 44% 0% 0% 0%;
+  padding: 136% 0% 0% 0%;
 }
+
 .the_rate_deserve_mobile {
-    font-family: Lato;
-    font-size: 23px;
-    font-weight: 900;
-    line-height: 1.22;
-    letter-spacing: 6px;
-    color: #FFF;
-    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5), 0px 2px 4px rgba(0, 0, 0, 0.5), 0px 2px 4px rgba(0, 0, 0, 0.5);
-    padding: 12% 0% 0% 4%;
+  font-family: Lato;
+  font-size: 45px;
+  font-weight: 900;
+  line-height: 1.22;
+  letter-spacing: 6px;
+  color: #ffffff;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5), 0 2px 4px rgba(0, 0, 0, 0.5), 0 2px 4px rgba(0, 0, 0, 0.5);
+  padding: 12% 0% 0% 10%;
 }
 .Merit-based-Student_mobile {
   font-family: VarelaRound;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 1.63;
   color: #ffffff;
-  padding: 0% 9% 0% 4%;
+  padding: 10% 24% 0% 10%;
 }
 .Rectangle1 {
   border-radius: 2px;
@@ -108,15 +111,16 @@
 }
 .BORROW-BETTER_mobile {
   font-family: Comfortaa;
- font-size: 12px;
- color: #FFF;
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
 }
 .btn_default_mobile {
- border-radius: 2px;
- border: 1px solid #FFF;
- background-color: #0D1B40;
- margin: 5% 0% 9% 4%;
- padding: 3% 19%;
+  border-radius: 2px;
+  border: solid 1px #ffffff;
+  background-color:#0d1b40;
+  margin: 10% 0% 10% 8%;
+  padding: 4% 15%;
 }
 .who_we_are {
   font-family: Lato;
@@ -125,7 +129,6 @@
   letter-spacing: 0.8px;
   text-align: center;
   color: #ffffff;
-
 }
 .Were-just-like-you {
   font-family: VarelaRound;
@@ -255,6 +258,8 @@ h4{
   margin: 13% 0%;
 }
 .CALCULATE-MY-RATE {
+  width: 174px;
+  height: 20px;
   font-family: VarelaRound;
   font-size: 16px;
   color: #ffffff;
@@ -265,7 +270,7 @@ h4{
   font-weight: bold;
   letter-spacing: 2px;
   color: #0d1b40;
-  margin: 10% 0% 2% 0%;
+  margin: 31% 0%;
 }
 #Financialneed{
   background:#ffffff;
@@ -338,6 +343,7 @@ h4{
 .howitworks {
   font-family: Lato;
   font-size: 20px;
+  font-weight: bold;
   letter-spacing: 2px;
   color: #ffffff;
   text-align: center;
@@ -350,12 +356,12 @@ h4{
   margin: 2% 0% 0% 2%;
 }
 .no1_mobile {
-    font-family: Lato;
-    font-size: 19px;
-    font-weight: 900;
-    color: #9B9B9B;
-    margin: 3% 0% 0% -40%;
-    text-align: center;
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 900;
+  color: #9b9b9b;
+  margin: 3% 0% 0% -16%;
+  text-align: center;
 }
 .gradient_box {
   width: 935px;
@@ -370,29 +376,29 @@ h4{
   top: 12%;
   left: 5%;
 }
-.img1_mobile {
-    z-index: 99;
-    position: relative;
-    top: -5%;
-    left: 31%;
+.img1_mobile{
+  z-index: 99;
+  position: relative;
+  top: 12%;
+  left: 44%;
 }
 .getrate1_mobile{
   font-family: VarelaRound;
- font-size: 16px;
- color: #FFF;
- padding: 7% 0% 0% 0%;
- text-align: center;
+  font-size: 18px;
+  color: #ffffff;
+  padding: 7% 0% 0% 3%;
+  text-align:center;
 }
 .quickloan-c_mobile {
-    width: 210px;
-    height: 78px;
-    font-family: VarelaRound;
-    font-size: 16px;
-    line-height: 1.63;
-    text-align: center;
-    color: #FFF;
-    padding: 1% 0% 30%;
-    margin: 1% auto 3%;
+  width: 210px;
+  height: 78px;
+  font-family: VarelaRound;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  color: #ffffff;
+  padding: 1% 0% 3% 0%;
+  margin: 1% auto 3% auto;
 }
 .getrate1{
   font-family: VarelaRound;
@@ -438,7 +444,7 @@ h4{
   width: 210px;
   height: 78px;
   font-family: VarelaRound;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.63;
   text-align: center;
   color: #ffffff;
@@ -447,41 +453,40 @@ h4{
   left: 26%;
   padding: 1% 0% 3% 0%;
 }
-.no2_mobile {
-    font-family: Lato;
-    font-size: 20px;
-    font-weight: 900;
-    color: #9B9B9B;
-    margin: 3% 0% 0% -46%;
-    text-align: center;
+.no2_mobile{
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 900;
+  color: #9b9b9b;
+  margin: 3% 0% 0% -16%;
+  text-align: center;
 }
-  .img2_mobile {
-    z-index: 99;
-    position: relative;
-    top: -5%;
-    left: 31%;
+.img2_mobile{
+  z-index: 99;
+  position: relative;
+  top: 12%;
+  left: 44%;
 }
-
 .fillyourdetails_mobile {
   font-family: VarelaRound;
-  font-size: 16px;
+  font-size: 18px;
   color: #ffffff;
   text-align: center;
   padding: 5% 0% 2% 0%;
 }
 .filloureasy_mobile {
-    width: 210px;
-    height: 78px;
-    font-family: VarelaRound;
-    font-size: 16px;
-    line-height: 1.63;
-    text-align: center;
-    color: #FFF;
-    margin: 1% auto 7%;
+  width: 210px;
+  height: 78px;
+  font-family: VarelaRound;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  color: #ffffff;
+  margin: 1% auto 3% auto;
 }
 .no3 {
   font-family: Lato;
-  font-size: 25px;
+  font-size: 25.8px;
   font-weight: 900;
   color: #9b9b9b;
   position: absolute;
@@ -506,7 +511,7 @@ h4{
   width: 210px;
   height: 78px;
   font-family: VarelaRound;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.63;
   text-align: center;
   color: #ffffff;
@@ -516,22 +521,22 @@ h4{
   padding: 1% 0% 3% 0%;
 }
 .no3_mobile {
-    font-family: Lato;
-    font-size: 20px;
-    font-weight: 900;
-    color: #9B9B9B;
-    margin: 3% 0% 0% -50%;
-    text-align: center;
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 900;
+  color: #9b9b9b;
+  margin: 3% 0% 0% -16%;
+  text-align: center;
 }
-.img3_mobile {
-    z-index: 99;
-    position: relative;
-    top: -5%;
-    left: 31%;
+.img3_mobile{
+  z-index: 99;
+  position: relative;
+  top: 12%;
+  left: 44%;
 }
 .well_analyze_mobile {
   font-family: VarelaRound;
-  font-size: 16px;
+  font-size: 18px;
   color: #ffffff;
   text-align: center;
   padding: 5% 0% 2% 0%;
@@ -544,11 +549,11 @@ h4{
   line-height: 1.63;
   text-align: center;
   color: #ffffff;
-  margin: 1% auto 7% auto;
+  margin: 1% auto 3% auto;
 }
 .no4 {
   font-family: Lato;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 900;
   color: #9b9b9b;
   position: absolute;
@@ -573,7 +578,7 @@ h4{
   width: 210px;
   height: 104px;
   font-family: VarelaRound;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.63;
   text-align: center;
   color: #ffffff;
@@ -583,22 +588,22 @@ h4{
   padding: 1% 0% 3% 0%;
 }
 .no4_mobile {
-    font-family: Lato;
-    font-size: 20px;
-    font-weight: 900;
-    color: #9B9B9B;
-    margin: 3% 0% 0% -53%;
-    text-align: center;
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 900;
+  color: #9b9b9b;
+  margin: 3% 0% 0% -16%;
+  text-align: center;
 }
 .img4_mobile{
   z-index: 99;
   position: relative;
-  top: -5%;
-  left: 31%;
+  top: 12%;
+  left: 44%;
 }
 .your_money_mobile {
   font-family: VarelaRound;
-  font-size: 16px;
+  font-size: 18px;
   color: #ffffff;
   text-align: center;
   padding: 5% 0% 2% 0%;
@@ -620,19 +625,18 @@ h4{
   background-color: #0d1b40;
   margin: 22% 0% 10% 0%;
 }
-.rectangle_3_2_mobile {
-    padding: 4% 22%;
-    border-radius: 2px;
-    border: 1px solid #FFF;
-    background-color: #0D1B40;
-    margin: 10% 0% 10% 11%;
+.rectangle_3_2_mobile{
+  padding: 4% 20%;
+  border-radius: 2px;
+  border: solid 1px #ffffff;
+  background-color: #0d1b40;
+  margin: 22% 0% 10% 6%;
 }
 .getstart{
   font-family: VarelaRound;
-  font-size: 12px;
+  font-size: 16px;
   color: #ffffff;
 }
-
 .expatloan{
   background-color: #ffffff;
   padding: 2% 1%;
@@ -706,14 +710,6 @@ h4{
   background-size: 100% 100%;
   background-repeat: no-repeat;
   padding: 2% 0% 0% 0%;
-  height: 370px;
-}
-.navbar-default .navbar-brand {
-    font-family: Lato;
-    font-size: 20px;
-    font-weight: 900;
-    letter-spacing: 1.2px;
-    color: #FFF;
 }
 .btn-default{
   padding:2% 7%;
@@ -723,18 +719,6 @@ h4{
   position: relative;
   top:12%;
   left: 44%;
-}
-.sharada {
-    margin: 19% auto 10% auto;
-    padding:0px;
-}
-.Were-just-like-you {
-    font-family: VarelaRound;
- font-size: 12px;
- line-height: 1.63;
- text-align: center;
- color: #FFF;
- padding: 4% 7%;
 }
 .no1 {
   margin: 3% 0% 0% -16%;
@@ -758,35 +742,13 @@ h4{
   background-color: #0d1b40;
   margin: 22% 0% 10% 4%;
 }
-.CALCULATE-MY-RATE {
-  font-size: 12px;
-}
+
 .btn_default {
   border-radius: 2px;
   border: solid 1px #ffffff;
   background-color:#0d1b40;
   margin: 10%;
   padding: 4% 7%;
-}
-.Whats-your-financia {
-    font-family: Lato;
-   font-size: 16px;
-   font-weight: bold;
-   letter-spacing: 2px;
-   color: #0d1b40;
-   margin: 10% 0% 2% 0%;
-}
-.Save-30000-on-Aver {
-    font-size: 14px;
-    margin: 37% 0% 0% 0%;
-    padding: 2% 17%;
-}
-.rectangle_box1_2 {
-    margin: 9% 3% 0% 21%;
-    padding: 6% 19% 4%;
-}
-.getrate {
-    font-size: 12px;
 }
 .the_rate_deserve {
   font-family: Lato;
@@ -799,88 +761,86 @@ h4{
   padding: 12% 0% 0% 10%;
 }
 .who_we_are {
-  margin: 60% 0% 2% 0%;
-  font-size: 16px;
+  margin: 6% 3%;
 }
 .Save-300-a-month {
     font-family: Lato;
-   font-size: 20px;
-   font-weight: 900;
-   color: #0D1B40;
-   padding: 5% 3% 0% 10%;
-   line-height: 156%;
+    font-size: 29px;
+    font-weight: 900;
+    color: #0d1b40;
+    padding: 34px 0px 22px 10px;
 }
 h4{
   font-family: VarelaRound;
- color: #0D1B40;
- padding: 17px 0px 2px 29px;
- font-size: 13px;
+  color: #0d1b40;
+  padding: 4px 0px 2px 10px;
+  font-size: 17px;
 }
 .mobile_para{
   font-family: VarelaRound;
- font-size: 12px;
- line-height: 1.63;
- color: #4A4A4A;
- padding: 0px 18px 2px 30px;
+  font-size: 12px;
+  line-height: 1.63;
+  color: #4a4a4a;
+  padding: 4px 43px 2px 10px;
 }
 .Rectangle3_copy {
-    padding: 3% 12%;
-   border-radius: 2px;
-   background-color: #0D1B40;
-   margin: 7% 4% 15% 9%;
+    padding: 13% 37%;
+    border-radius: 2px;
+    background-color: #0d1b40;
+    margin: 13% -50%;
 }
 .Rectangle_box1_1 {
-  background-color: #FFF;
-  border: 1px solid #979797;
-  margin: 43% 2% 3% 11%;
-  height: 291px;
-  width: 234px;
+    width: 234.3px;
+    height: 322.2px;
+    background-color: #ffffff;
+    border: solid 1px #979797;
+    margin: 43% 2% 3% 15%;
 }
 .Rectangle_box1 {
-    top: 36px;
-    left: 84px;
+    width: 146px;
+    height: 146px;
+    background-color: #0d1b40;
+    border: solid 1px #979797;
+    position: absolute;
+    top: 32px;
+    left: 92px;
     z-index: 99;
 }
 .wearetransform {
     font-family: Lato;
-font-size: 20px;
-font-weight: bold;
-font-style: italic;
-color: #0D1B40;
-padding: 15% 2% 10% 3%;
-text-shadow: 0px 0px #000;
-text-align: center;
-}
-.howitworks {
-    font-size: 14px;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+    color: #0d1b40;
+    padding: 15% 2% 10% 3%;
+    text-shadow: 0 0 black;
+    text-align: right;
 }
 .botpara1 {
     font-family: VarelaRound;
-    font-size: 12px;
+    font-size: 13px;
     line-height: 1.63;
     color: #4a4a4a;
     padding: 2% 9% 0% 7%;
     margin: 0px;
-    text-align: center;
 }
 .botpara2 {
     font-family: VarelaRound;
-    font-size: 12px;
+    font-size: 13px;
     line-height: 1.63;
     color: #4a4a4a;
     padding: 0% 9% 0% 6%;
-    text-align: center;
 }
 .shradhafounder {
     font-family: Lato;
-   font-size: 14px;
-   color: #4A4A4A;
-   padding: 4% 0% 7%;
-   text-align: center;
+    font-size: 18px;
+    color: #4a4a4a;
+    padding: 4% 0% 0% 0%;
+    text-align: center;
 }
 .foot_txt {
     font-family: VarelaRound;
-    font-size: 11px;
+    font-size: 12px;
     color: #9b9b9b;
 }
 .col-md-6{
